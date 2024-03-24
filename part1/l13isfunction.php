@@ -165,7 +165,7 @@ echo $country;
 <!-- 
     is_string(variable)
     is_numeric(variable)
-    is_float()
+    is_float(variable)
     is_bool(variable)
     is_array(variable)
     is_null(variable)
