@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Su Su",
+        "city":"Mandalay"
+    },
+    {
+        "id":2,
+        "name":"Nu Nu",
+        "city":"Mandalay"
+    },
+    {
+        "id":3,
+        "name":"Yu Yu",
+        "city":"Mandalay"
+    },
+    {
+        "id":4,
+        "name":"Aung Aung",
+        "city":"Mandalay"
+    },
+    {
+        "id":5,
+        "name":"kyaw kyaw",
+        "city":"Mandalay"
+    },
+    {
+        "id":6,
+        "name":"Soe Thu",
+        "city":"Mandalay"
+    },
+    {
+        "id":7,
+        "name":"Aung Kyaw",
+        "city":"Mandalay"
+    }
+]
+
