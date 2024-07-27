@@ -7,16 +7,12 @@
 // protected                           Inside the current class and sub classes
 // private                             Inside the current class only
 
-class Classconstant{
-
+class Classconstat{
+   
     const NAME = "Honey Nway Oo";
     public const CITY = "Yangon";
     protected const EMAIL = "honeynwayoo@gmail.com";
     private const PASSWORD = "123456789";
-
-    public function getinfo(){
-        echo "Name is = ".self::NAME . " & She live in ". self::CITY . "<br/>";
-    }
 
     public function getaccess(){
         echo "Email is = ".self::EMAIL . " & Password is = ". self::PASSWORD . "<br/>";

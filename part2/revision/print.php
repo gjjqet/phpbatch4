@@ -1,6 +1,5 @@
 <?php
 
-require_once "Scoperesolutionoperator.php";
-include_once "Constantvsproperties.php";
+include_once("Mymagicmethod.php");
 
 ?>

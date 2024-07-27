@@ -10,7 +10,7 @@ class Bankbalance{
         $this->balance = $this->balance + $amount;
     }
 
-    public function checkbalance($amount){
+    public function checkbalance(){
         echo "Your Balance is = $this->balance";
     }
 

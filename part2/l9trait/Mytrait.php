@@ -56,14 +56,14 @@ echo "This is Destructor <br/>";
 
 
 $obj = new Mytrait();
-$obj->gmaillogin();//This is Gmail login . Email is aungaung@gmail.com & Profile name is aung aung
-echo $obj->fullname . "<br/>";
-echo $obj->email . "<br/>";
-echo $obj->password . "<br/>";
-$obj->useraccess();
-$obj->userinfo();
+$obj->gmaillogin();//This is Gmail login . Email is .honey@gmail.com & Password is 123456
+echo $obj->fullname . "<br/>"; // Honey Nway Oo
+echo $obj->email . "<br/>"; // honey@gmail.com
+echo $obj->password . "<br/>"; // 123456
+$obj->useraccess(); //This is site login . Email is .honey@gmail.com & Password is 123456 .
+$obj->userinfo(); // Profile is Honey Nway Oo .
 
-$obj->githublogin();
+$obj->githublogin(); // This is githublogin . Email is .honey@gmail.com & Password is 123456 .
 
 
 // $ggo = new Googleauth(); 
