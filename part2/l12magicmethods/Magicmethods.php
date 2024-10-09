@@ -124,9 +124,26 @@ $obj3();
 
 echo "<hr/>";
 
-$obj4 = new Mymagicfour();
-echo $obj4;
+// $obj4 = new Mymagicfour();
+// echo $obj4;
 
-echo "I am apple ";
+// echo "I am apple ";
+
+echo "<hr/>";
 
 ?>
+
+
+
+<!-- 
+
+__construct()
+__destruct()
+__get()
+__set()
+__call()
+__callstatic()
+__invoke()
+_toString()
+
+-->

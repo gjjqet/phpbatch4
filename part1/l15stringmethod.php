@@ -120,6 +120,7 @@ echo substr_replace($greeting,"Hello",0,7);//Hello Myanmar
 
 
 
+
 //=>trim() Function
 //=>trim(string,characters) Function
 
@@ -169,8 +170,8 @@ echo str_repeat("A Kyal Gyi",3);//A Kyal GyiA Kyal GyiA Kyal Gyi
 // >0 = if string1 is greater than string2
 
 echo strcmp("I Love My Job","I Love My Job"); // 0
-echo strcmp("I Love My Job","I Love"); //7
-echo strcmp("I Love","I Love My Job"); //-7
+echo strcmp("I Love My Job","I Love"); // 1
+echo strcmp("I Love","I Love My Job"); // -1
 
 
 
@@ -268,5 +269,27 @@ echo pathinfo($filepath,PATHINFO_FILENAME);//cover
     strpos(string,find),strrpos(),stripos(),strripos();
     str_replace(find,replace,string)
     substr_replace(string,replace,start index,end length)
-    trim(string,"welcome")
+
+    trim(string,"welcome");
+    ltrim(string,"/wel");
+    rtrim(string,nmar/);
+
+    str_repeat(string,count);
+    strcmp(string,string);
+
+    explode(sperator,string,limit);
+
+    implode(sperator,array);
+    join(sperator,array);
+
+    number_format(number);
+    number_format(number,decimal);
+
+    stripslashes(string);
+
+    basename(string);
+    basename(string,sufix);
+
+    pathinfo(string,flags);
+
  -->

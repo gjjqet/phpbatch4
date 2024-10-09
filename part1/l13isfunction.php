@@ -26,7 +26,6 @@ echo "val6 is " . is_string($val6);//1
 
 
 
-
 //=>is_numeric(variable)  Function
 
 $val7=50;
@@ -118,6 +117,8 @@ echo "val22 is " . is_null($val22);
 
 
 
+
+
 //=>empty(variable) VS isset(variable)
 //Note :: the following values are empty
 //0
@@ -131,16 +132,14 @@ echo "val22 is " . is_null($val22);
 $val21=[];
 
 if(empty($val21)){
-    echo "Your variable is empty"
-};
+    echo "Your variable is empty";
+}
 
 if(isset($val21)){
     echo "Your variable with value";
 }else{
-    echo "Your variable without value"
-};
-
-
+    echo "Your variable without value";
+}
 
 
 

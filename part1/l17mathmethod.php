@@ -72,9 +72,10 @@ echo pow(3,4);//81
 
 
 
+
 //=>log(number,base) Logarithm Function
 
-echo log(8,2)
+echo log(8,2);
 echo log(10,2);//3.
 echo log(20,4);//2.
 echo log(80,3);//3.

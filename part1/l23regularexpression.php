@@ -68,13 +68,13 @@ $result = preg_match("/@/",$string);//false
 
 $string = "admin@gamil.com";
 
-$result = preg_match("/@/",$string)//true
-$result = preg_match("/m/",$string)//true
-$result = preg_match("/m+/",$string)//true
-$result = preg_match("/b/",$string)//false
-$result = preg_match("/b+/",$string)//false
-$result = preg_match("/b*/",$string)//true
-$result = preg_match("/@?/",$string)//true
+$result = preg_match("/@/",$string);//true
+$result = preg_match("/m/",$string);//true
+$result = preg_match("/m+/",$string);//true
+$result = preg_match("/b/",$string);//false
+$result = preg_match("/b+/",$string);//false
+$result = preg_match("/b*/",$string);//true
+$result = preg_match("/@?/",$string);//true
 
 $result = preg_match("/m{1}/",$string);//true
 $result = preg_match("/m{2}/",$string);//false
@@ -88,6 +88,7 @@ $result = preg_match("/n{2}/",$string);//true
 $result = preg_match("/n{3}/",$string);//false
 $result = preg_match("/n{2,3}/",$string);//true
 $result = preg_match("/n{2,}/",$string);//true
+
 
 $result = preg_match("/\s/",$string);//false
 
@@ -222,6 +223,7 @@ $result = preg_split("//",$string,0,PREG_SPLIT_NO_EMPTY);
 echo "<pre>".print_r($result,true)."</pre>";
 
 
+
 //=>preg_quote(string,delimeter);
 
 $string = "He\'s my father,do you know him ?";
@@ -298,4 +300,14 @@ echo $result;
     [[:upper:]] uppder-case characters
 
     
+ -->
+
+
+ <!-- 
+    preg_match(pattern,string)
+    preg_replacd(patten,replace,string)
+    preg_split(patten,string,limit,flags)
+    preg_quote(string,delimiter)
+    preg_match_all()
+    lookahead & lookbehind
  -->

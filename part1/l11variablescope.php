@@ -12,10 +12,9 @@
     echo "Gloval Variable Scope print in function = $num1";
   };
 
-  funone(); //Gloval Variable Scope print in function = (no print out $num1 , cuz function will generate an error)
+  funone(); //Global Variable Scope print in function = (no print out $num1 , cuz function will generate an error)
 
   echo "Gloval Variable Scope print outsite = $num1"; //Gloval Variable Scope print outsite = 100
-
 
 
 
@@ -56,6 +55,8 @@ echo "Local Variable print outside = $result";//Local Variable print outside = 7
 
 
 
+
+
 //=>Supre Global Variable
 
 $num5=500;
@@ -72,6 +73,7 @@ function funfour(){
 funfour();
 
 echo "Local Variable print outside = $sum";//Local Variable print outside = 1100
+
 
 
 
@@ -99,23 +101,24 @@ function funsix(){
     echo $num8;
 };
 
-funsix() //801
-funsix()//801
-funsix()//801
-funsix()//801
+funsix(); //801
+funsix();//801
+funsix();//801
+funsix();//801
 
 
 function funseven(){
    static $num9=900;
 
-    $num9=9++;
-    echo $num9
+    $num9++;
+    echo $num9;
 };
 
-funseven() //901
-funseven()//902
-funseven()//903
-funseven()//904
+funseven(); //901
+funseven();//902
+funseven();//903
+funseven();//904
+
 
 
 
@@ -169,7 +172,9 @@ echo $fullname;//aung aung oo
 ?>
 
 <!-- 
-  global keyword
+  global keyword 
+  super global variable
   static keyword
+  passing by reference
   &
  -->

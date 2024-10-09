@@ -60,15 +60,15 @@ singlefun("aung aung");
 //----------------------------------
 
 function multifun($name,$age){
-    echo "My name is $name and My age is {$age}";
+    echo "My name name $name My age is {$age}";
 };
 
-multifun();
+//multifun(); //error
 
 //------------------------------------------------
 
 function defaultfun($name="hla hla"){
-    echo "My name is ${name}"
+    echo "My name is ${name}";
 };
 
 defaultfun();//My name is hla hla
@@ -139,9 +139,9 @@ echo $myfun;
 echo $myfun();
 
 if(function_exists($myfun)){
-   echo "Yes , your variable value is already in some kind of function."
+   echo "Yes , your variable value is already in some kind of function.";
 }else{
-    echo "No"
+    echo "No";
 };
 
 

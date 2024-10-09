@@ -38,6 +38,8 @@
 
 
 <!-- 
+
 sudo chmod 777 /var/www/html
 sudo chmod 775 /var/www/html
+
 -->

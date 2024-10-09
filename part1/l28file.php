@@ -55,6 +55,7 @@ echo "<hr/>";
 
 
 
+
 //=> Execute
 
 //Note :: "x" create file only,return FALSE IF file already exists;
@@ -149,16 +150,18 @@ if($fileopen){
 }
 
 echo "<hr/>";
+
+
 // ----------------------------------------------------------------------------------
 
 // => Other File's Useful Functions
 
-// file_get_contents()  = Read
-// file_put_contents(file,string)  = Write
-// file_exists()        = check file exists or not
-// copy()               = copies a file
-// rename()             = rename a file
-// unlink(main)             = delete a file
+// file_get_contents()              = Read
+// file_put_contents(file,string)   = Write
+// file_exists()                    = check file exists or not
+// copy()                           = copies a file
+// rename(main,newfile)             = rename a file
+// unlink(main)                     = delete a file
 
 echo file_get_contents("l28file.txt");
 
@@ -237,6 +240,7 @@ if(file_exists($existingfile)){
 }
 
 echo "<hr/>";
+
 
 
 // Show all .txt files

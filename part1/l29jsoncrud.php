@@ -93,7 +93,9 @@ foreach($idxs as $idx){
 }
 
 
+
 //do save 
 file_put_contents("./l29studentdb.json",json_encode($datasde));
+
 
 ?>

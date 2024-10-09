@@ -59,10 +59,6 @@ class Staticvsnonstatic{
     }
 
 
-
-
-
-
     public function car(){
         echo "I am Non-static method <br/>";
 
@@ -108,14 +104,13 @@ echo "<br/>";
 
 //Static Method
 
-$obj->getstaticcity(); // City isYangon & home town is Yangon
-$obj->getstaticgender(); // Gender is Female
+$obj::getstaticcity(); // City isYangon & home town is Yangon
+$obj::getstaticgender(); // Gender is Female
 
 Staticvsnonstatic::getstaticcity(); // City isYangon & home town is Yangon
 Staticvsnonstatic::getstaticgender(); // Gender is Female
 
 echo "<hr/>";
-
 $obj->car();
 
 $obj->beforbuy(); //I amthinkig about to by a new iPhone 16 Pro Max

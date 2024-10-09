@@ -66,7 +66,7 @@ $getwday = $getdate["wday"];
         <?php elseif($getwday === 3) :?>
             <p>Today is Wednesday</p>
         <?php elseif($getwday === 4) :?>
-            <p>Today is Thursday</p>
+            <p>Today is Thursday </p>
         <?php elseif($getwday === 5) :?>
             <p>Today is Friday</p>
         <?php else: ?>

@@ -13,6 +13,7 @@ function mycolor($color){
 
 echo mycolor("red");
 
+
 function mynum($base,$power){
 
     if($power > 3){
@@ -35,7 +36,6 @@ echo mynum(2,3);
 // }catch(Exception $err){
 //     code to exception is catched
 // }
-
 
 
 
@@ -73,6 +73,7 @@ try{
     echo $e->getMessage();
 
 };
+
 
 
 function mypower($base,$power){

@@ -51,6 +51,8 @@ passworddecry(); //okai
 
 
 
+
+
 function passwordmd5($plaintext){
 
     // Message-Digest = md5(string,binary);
@@ -119,19 +121,19 @@ function passwordsha1($plaintext){
 passwordsha1("password123");
 
 
-function passwordmd5verify($planintext){
+function passwordsha1verify($planintext){
 
     $getpassword = "cbfdac6008f9cab4083784cbd1874f76618d2a97";
 
-    if($getpassword === md5($plaintext)){
+    if($getpassword === sha1($plaintext)){
         echo "Password match with 32 chars hax number";
-    }elseif($getpassword === md5($plaintext,TRUE)){
-        echo "Password match with 16 chars binary format";//can't match cuz it's a binary
+    // }else($getpassword === sha1($plaintext,TRUE)){
+    //     echo "Password match with 16 chars binary format";//can't match cuz it's a binary}
     }else{
         echo "Password do not match";
     }
 
-};
+}
 
 passwordmd5verify("password123");
 
@@ -204,5 +206,12 @@ strongpasswordverify("password123")
 
 
 
-
 ?>
+
+
+<!-- 
+
+    password_hash(string,PASSWORD_BCRYPT or PASSWORD_DEFAULT);
+    md5(string,true/false)
+
+-->

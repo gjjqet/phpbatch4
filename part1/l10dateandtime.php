@@ -2,10 +2,10 @@
 
 // 1 Jan 1970  UTC
 
-date_default_timezone_set("Asia/Yangon")
+date_default_timezone_set("Asia/Yangon");
 
 
-$getdate=getdate();
+$getdate= getdate();
 //echo $getdate();//error
 var_dump($getdate);
 echo "<pre>".print_r($getdate,true)."</pre>";
@@ -120,13 +120,15 @@ echo "This is format z = ".$date;//64 day of the year
      echo $diffone->format("%d days"); // 10 days
      echo $diffone->format("%m months"); // 4 months
      echo $diffone->format("%y year"); // 00 year
-     echo $diffone->format("%Y uear"); // 00 year
+     echo $diffone->format("%Y year"); // 00 year
+     
 
      $date3 = "{$getdate['mday']}-{$getdate['mon']}-{$getdate['year']}";
      echo $date3; // 10-6-2024
      $date4 = date_create($date3);
      echo date_format($date4,"Y-m-d");//2024-06-10
 
+     
 
      $difftwo = date_diff($date4,$date2);
      echo $difftwo->format("%d days"); // 3 days
@@ -148,3 +150,17 @@ echo "This is format z = ".$date;//64 day of the year
  -->
 
  <!-- php timezone -->
+
+
+
+<!-- 
+
+    a A      (am,pm)
+    d j      (date)
+    D l      (day)
+    g G      (hour)
+    h H      (hour)
+    n m M F  (month)
+    y Y
+
+ -->

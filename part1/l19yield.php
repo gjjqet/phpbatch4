@@ -14,8 +14,8 @@ function funone(){
 $numbers = funone();
 
 foreach($numbers as $number){
-    echo $number . "<br/>"
-};
+    echo $number . "<br/>";
+}
 
 
 function funtwo(){
@@ -48,7 +48,6 @@ function funthree(){
     yield from [1,2,3,4,5];
     yield from [6,7,8,9];
     yield from [10];
-
 
 };
 

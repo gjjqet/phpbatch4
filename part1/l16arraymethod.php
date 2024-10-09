@@ -120,6 +120,7 @@ echo "<pre>".print_r(array_fill_keys($keys,$values),true)."</pre>";
 
 
 
+
 //=>array_key_exists(key,array) Function (just for assoc array)
 $operators=['mpt'=>"ftth","ooredoo"=>"broadband"];
 
@@ -176,11 +177,11 @@ $males=["tun tun","aung aung","kyaw kyaw","thura","zaw zaw"];
 $females=array("hla hla","su su","nu nu","yu yu","thida");
 
 function genderone($name){
-    return ("Mr".$name)
+    return ("Mr".$name);
 }
 
 function gendertwo($male,$female){
-    return ($male." & ".$female)
+    return ($male." & ".$female);
 }
 
 echo "<pre>".print_r(array_map("genderone",$males),true)."</pre>";
@@ -226,6 +227,7 @@ echo "<pre>".print_r(array_reverse($winnumbers),true)."</pre>";
 
 
 
+
 //=>array_pad(array,length,value) Function
 $colors=["red","green"];
 echo "<pre>".print_r(array_pad($colors,5,"blue"),true)."</pre>";
@@ -249,13 +251,13 @@ echo array_reduce($nums,"calfun",0);//60
 $nums = [10,20,30,40,50];
 echo array_sum($nums);//150
 
+
 $nums = [10,20,30,"40",50];
 echo array_sum($nums);//-50
 
 
 $nums = ["a"=>10.2,"b"=>20.3,"c"=>30.3];
 echo array_sum($nums);//60.8
-
 
 
 
@@ -515,25 +517,50 @@ $nuseriadatas = unserialize($seriadatas);
 echo "<pre>".print_r($nuseriadatas,true)."</pre>";
 
 
-
-
 ?>
 
 
 
 <!-- 
-    array_combine(key,value)
-    count(array)
-    array_count_value(array)
+array_combine()
+count()
+sizeof()
+array_count_values()
+array_chunk()
+array_diff()
+array_diff_assoc()
+array_diff_key()
+array_intersect()
+array_fill()
+array_fill_key()
 
+array_key_exists()
+array_merge()
+array_keys(array,value,strict)
+array_map(function,array,array,...)
+sort()
+array_multisort()
+array_reverse()
+array_pad()
+array_reduce()
+array_sum()
 
-    array_chunk(array,length,preservekey)
-    array_diff(array1,array2,...)
-    array_diff_assoc(array1,array2,...)
-    array_diff_key(array1,array2,...)
-    array_interset(array1,array2,...)
-    array_fill(startindex,count,values);
-    array_fill_key(key,value)
-    array_key_exists(key,array)
-    array_merge(array1,array2,...)
- -->
+array_search()
+array_pop()
+array_shift()
+unset()
+array_values()
+array_push()
+array_unshift()
+array_slice()
+array_splice()
+array_unique()
+
+array_walk()
+compact()
+range()
+current(),pos(),next(),prev(),end(),reset()
+serialize()
+unserialize()
+
+-->

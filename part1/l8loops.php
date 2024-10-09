@@ -27,13 +27,13 @@ for($i=0;$i<count($colorones);$i++){
 };
 
 foreach($colorones as $colorone){
-   echo "This is indexed array or manual array by foreach".$colorone
+   echo "This is indexed array or manual array by foreach".$colorone;
 };
 
                       //idx    value
 foreach($colorones as $key=>$colorone){
    //echo $key;
-   echo " key is".$key." value is ".$colorone.". "
+   echo " key is".$key." value is ".$colorone.". ";
    
 };
 

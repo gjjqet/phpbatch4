@@ -37,6 +37,8 @@ echo $GLOBALS["total"];//300
 echo $total;//300
 
 
+
+
 //=>2. $_SEVER
 
 echo $_SERVER["PHP_SELF"];         //    /phpbatch4/part1/l12superglobalvariables.php
@@ -55,6 +57,8 @@ echo $_SERVER["SCRIPT_FILENAME"];//      /var/www/html/phpbatch4/part1/l12superg
 //http://localhost/phpbatch4/part1/superglobalvariables.php?aungaung
 echo $_SERVER["QUERY_STRING"];   //****aungaung
 echo "<hr/>";
+
+
 
 
 ?>

@@ -100,7 +100,7 @@ $person=array(
     array("name"=>"aung aung","age"=>20),
     array("name"=>"su su","age"=>18),
     array("name"=>"nu nu","age"=>23)
-)
+);
 
 $vippersons=[
     ["name"=>"aung aung","age"=>20],

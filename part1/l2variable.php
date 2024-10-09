@@ -8,7 +8,7 @@ echo "My name is $name";//My name is Kyaw Kyaw
 echo "My name is {$name}";//My name is Kyaw Kyaw
 echo "My name is ${name}";//My name is Kyaw Kyaw
 echo 'My name is $grade';//My name is $grade
-print "I'm grade $nine";//I'm grade 9
+print "I'm grade $grade";//I'm grade 9
 echo 'My name is $grade';//My name is $grade
 
 echo 400;
@@ -19,8 +19,6 @@ echo false;//empty
 echo null;//empty
 
 
-
-s
 
 $fullname="U Kyaw Kyaw";
 $job="Developer";
@@ -33,8 +31,10 @@ echo "He's my father , he is a \{$job}";//He's my father , he is a {Developer}
 echo "He's my father , he is a {\$job}";//He's my father , he is a {$job}
 
 
-$gender=echo "female";//error
-$nation=print "burma";//burma
+// $gender= echo "female";//error
+$nation= print "burma";//burma
+
+
 
 
 //Concat (.)
@@ -44,6 +44,7 @@ $lastname="Kyaw Kyaw";
 
 echo $firstname;
 echo $lastname;
+
 
 echo $firstname." ".$lastname;
 
@@ -55,6 +56,7 @@ echo $firstname." ".$lastname;
  comment 1
  comment 2
 comment 3*/
+
 
 
 

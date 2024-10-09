@@ -25,7 +25,7 @@ if($x > $y){
 
 //Short Hand
 
-if($x < $y)echo "Yes , x less than y";else echo "No , x grater than y";
+if($x < $y) echo "Yes , x less than y";else echo "No , x grater than y";
 
 
 $color="gray";
@@ -144,7 +144,7 @@ if($b > $c)echo "it is true";elseif($b===200)echo "it is equal";else echo "it is
 $phone="iphone";
 
 switch($phone){
-    case "sony"
+    case "sony":
         echo "i can't buy sony phone";
         break;
     case "iphone":
